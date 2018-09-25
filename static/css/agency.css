@@ -1,0 +1,172 @@
+#agency .model,#agency .advantage,#agency .other,#agency .mess{
+	padding-top:60px;
+}
+#agency .title{
+	display:inline-block;
+	width:450px;
+	position:relative;
+}
+#agency .title:before,#agency .title:after{
+	display:block;
+	content:"";
+	width:98px;
+	height:1px;
+	background:#1b1b1b;
+	position:absolute;
+	top:18px;
+}
+#agency .title:before{
+	left:0;
+}
+#agency .title:after{
+	right:0;
+}
+#agency .subTitle{
+	/*margin:5px 0 55px 0;*/
+	margin:5px 0 35px 0;
+}
+
+/*盈利模式丰富*/
+#agency .model .list li{
+	width:273px;
+	height:350px;
+	padding:40px 40px 0 40px;
+	margin-right:36px;
+	background:#fff;
+}
+#agency .model .list li:last-child{
+	margin-right:0;
+}
+#agency .model .list img{
+	width:110px;
+	height:110px;
+}
+#agency .model .list p{
+	text-align:left;
+	font-size:16px;
+	line-height:20px;
+}
+#agency .model .list p.tit{
+	text-align:center;
+	font-size:18px;
+	line-height:18px;
+	margin:10px 0 15px 0;
+}
+
+/*微冠成的优势*/
+#agency .advantage{
+	
+}
+#agency .advantage .tip{
+	width:930px;
+	font-size:18px;
+	line-height:26px;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+#agency .advantage .list li{
+	width:130px;
+	margin-right:84px;
+}
+#agency .advantage .list li:last-child{
+	margin-right:0;
+}
+#agency .advantage .list img{
+	width:118px;
+	height:118px;
+}
+#agency .advantage .list p{
+	font-size:22px;
+	line-height:62px;
+}
+
+
+/*微冠成其他支持*/
+#agency .other{
+	
+}				
+#agency .other .list li{
+	font-size:20px;
+	width:273px;
+	height:350px;
+	padding-top:40px;
+	margin-right:36px;
+	margin-bottom:36px;
+	background:#24aed7;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+}
+#agency .other .list li:nth-child(4n){
+	margin-right:0;
+}
+#agency .other .list li p{
+	width:210px;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	background:#5ac4e4;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	margin:0 auto;
+	margin-bottom:20px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+#agency .other .list li p.tit{
+	width:162px;
+	height:36px;
+	line-height:36px;
+	color:#fff;
+	background:url(../images/btnBg.png) no-repeat;
+	margin-bottom:24px;
+}
+
+/*成为代理*/
+#agency .mess{
+	position:relative;
+	padding-bottom:30px;
+}
+#agency .mess .list{
+	height:470px;
+	background:url(../images/agencyBg.png) no-repeat;
+	padding-top:114px;
+	padding-left:50px;
+}
+#agency .mess .list li{
+	width:280px;
+	margin-left:70px;
+	margin-bottom:40px;
+}
+#agency .mess .list li:last-child{
+	width:980px;
+}
+#agency .mess .list span.fl{
+	color:#333;
+	font-size:28px;
+	line-height:52px;
+	width:85px;
+}
+#agency .mess .list .fr{
+	color:#333;
+	font-size:20px;
+	line-height:32px;
+	padding:10px;
+	background:#f7f7f7;
+	width:190px;
+}
+#agency .mess .list textarea.fr{
+	width:890px;
+}
+#agency .mess .submit{
+	font-size:26px;
+	width:130px;
+	line-height:50px;
+	color:#fff;
+	background:#24aed7;
+	position:absolute;
+	bottom:128px;
+	left:50%;
+	margin-left:-65px;
+}
+

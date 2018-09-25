@@ -1,0 +1,149 @@
+/*头部*/
+.header{
+	width:100%;
+	/*background:#fff;*/
+	background:#f5f5f5;
+	z-index:2;
+	position:fixed;
+	left:0;
+	top:0;
+}
+.header .headerT{
+	line-height:40px;
+	padding:7px 0;
+	background:#f5f5f5;
+}
+.headerT .tip{
+	color:#1e1e1e;
+}
+.headerT .tip b{
+	color:#000;
+}
+.headerT ul{
+	
+}
+.headerT ul li{
+	margin-left:5px;
+}
+.headerT ul input{
+	height:26px;
+}
+.headerT ul .phone{
+	color:#757575;
+	padding:0 5px;
+	border:1px solid #ccc;
+	border-radius:2px 0 0 2px;
+	-webkit-border-radius:2px 0 0 2px;
+}
+.headerT ul .callIcon{
+	width:35px;
+	background:#707070 url(../images/icon_call.png) center center no-repeat;
+}
+.headerT ul .call{
+	width:70px;
+	color:#fff;
+	background:#707070;
+	border-radius:0 2px 2px 0;
+	-webkit-border-radius:0 2px 2px 0;
+	margin-right:20px;
+}
+.headerT ul a{
+	color:#1a1a1a;
+}
+.headerT ul a:hover{
+	color:#109acf;
+}
+.headerT ul li ::-webkit-input-placeholder { /* WebKit browsers */  
+    color:#757575;  
+}  
+.headerT ul li :-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
+   color:#757575;  
+}  
+.headerT ul li ::-moz-placeholder { /* Mozilla Firefox 19+ */  
+   color:#757575;   
+}  
+.headerT ul li :-ms-input-placeholder { /* Internet Explorer 10+ */  
+   color:#757575;  
+}  
+.header .nav{
+	
+}
+.header .nav .logo{
+	padding:15px 0 3px 0;
+}
+.header .nav .logo img{
+	width:128px;
+	height:55px;
+}
+.header .nav .logo i{
+	color:#000;
+	display:block;
+}
+.header .nav .meau{
+	
+}
+.header .nav .meau li{
+	padding:25px 0;
+	/*margin-left:40px;*/
+	margin-left:60px;
+	position:relative;
+}
+.header .nav .meau li>a{
+	color:#000;
+	line-height:30px;
+	/*padding:0 8px;*/
+	padding:0 10px;
+	/*border-bottom:2px solid #fff;*/
+	border-bottom:2px solid #f5f5f5;
+	position:relative;
+	z-index:2;
+}
+.header .nav .meau li>a.active{
+	color:#109acf;
+	border-bottom:2px solid #109acf;
+}
+.header .nav .meau li>a:hover{
+	color:#109acf;
+	border-bottom:2px solid #109acf;
+}
+.header .nav .meau li>a em{
+	display:block;
+	content:"";
+	width:8px;
+	height:4px;
+	background:url(../images/icon_triangle.png) no-repeat;
+	position:absolute;
+	right:0;
+	top:13px;
+}
+.header .nav .meau li .submenu{
+	/*font-size:12px;*/
+	display:none;
+	width:100%;
+	/*background:#fff;*/
+	background:#f5f5f5;
+	padding-top:20px;
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:62px;
+}
+.header .nav .meau li:hover .submenu{
+
+}
+.header .nav .submenu a{
+	width:100%;
+	color:#000;
+	padding:7px 8px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.header .nav .submenu a.active{
+	
+}
+.header .nav .submenu a:hover{
+	color:#fff;
+	background:#109acf;
+}
+

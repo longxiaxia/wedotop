@@ -1,0 +1,62 @@
+#about{
+	
+}
+#about .about,#about .office,#about .contact{
+	padding:40px 0;
+}
+#about .title{
+	display:inline-block;
+	width:450px;
+	position:relative;
+}
+#about .office .title{
+	width:540px;
+}
+#about .title:before,#about .title:after{
+	display:block;
+	content:"";
+	width:98px;
+	height:1px;
+	background:#1b1b1b;
+	position:absolute;
+	top:18px;
+}
+#about .title:before{
+	left:0;
+}
+#about .title:after{
+	right:0;
+}
+#about .subTitle{
+	/*margin:5px 0 55px 0;*/
+	margin:5px 0 35px 0;
+}
+#about .info{
+	text-align:left;
+}
+#about .info p{
+	font-size:20px;
+	line-height:30px;
+	margin:20px 0;
+}
+#about .about .fl{
+	width:450px;
+}
+#about .about .fr{
+	width:710px;
+	margin-left:40px;
+}
+#about .office p{
+	text-indent:2em;
+}
+#about .contact .fr{
+	width:660px;
+	margin-left:40px;
+}
+#about .contact .fr p{
+	margin:0;
+}
+#about .contact .fr p.tit{
+	font-weight:bold;
+	margin:50px 0 30px 0;
+}

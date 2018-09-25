@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <title>微商城</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Keywords" content="微冠成，微信小程序开发，微商城，微官网，微直播，贷款超市开发，区块链开发，微信定制开发">
+    <meta name="description" content="微冠成，移动互联网技术提供商。为大中小企业提供微信小程序开发，微官网，微商城，贷款超市，区块链开发等服务。生意要做成，就找微冠成！">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <!--忽略将页面中的数字识别为电话号码-->
+    <meta name="format-detection" content="telephone=no" />
+    <!--忽略Android平台中对邮箱地址的识别-->
+    <meta name="format-detection" content="email=no" />
+    <link rel="shortcut icon" type="image/x-icon" href="static/images/wedotop.ico">
+    <link rel="icon" type="image/x-icon" href="static/images/wedotop.ico">
+    <link href="static/css/common.css" type="text/css" rel="stylesheet" />
+    <link href="static/css/header.css" type="text/css" rel="stylesheet" />
+    <link href="static/css/footer.css" type="text/css" rel="stylesheet" />
+    <link href="static/css/product.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="static/js/jquery.2.1.4.min.js"></script>
+
+</head>
+<body>
+<div id="index">
+    <!--头部-->
+    <div id="header"></div>
+
+    <div class="ad">
+		<img src="static/images/temp/agencyAd.png" />
+	</div>
+
+    <!--内容-->
+    <main class="shop-container">
+        <div class="shop-top clearfix">
+            <div class="fl top-img" style="width: 580px;margin-top: 50px">
+                <img src="static/images/product/productOffice_top.png" alt="">
+            </div>
+            <div class="fl top-article" style="margin-top: 45px;">
+                <h3><span>TOP官网</span></h3>
+                <p class="specially">移动品牌展示的必然趋势</p>
+                <p>·多行业模块化专业方案</p>
+                <p>·自定义导航，完美匹配不同需求</p>
+                <p>·交互丰富，灵活布局，自适应浏览</p>
+                <p>·访问流畅，稳定安全</p>
+                <p class="phone"><img src="static/images/product/product_phone.png" alt="">0755-86707893 <a href="javascript:;">在线咨询</a></p>
+            </div>
+        </div>
+        <div class="shop-advantage">
+            <h3>TOP官网优势</h3>
+            <p>TOP OFFICIAL WEBSITE ADVANTAGE</p>
+            <p class="spacially">3分钟生成专属微官网</p>
+            <p><img src="static/images/product/productOffice_test1.png" alt=""></p>
+            <img style="margin-top: 90px" src="static/images/product/productOffice_test2.png" alt="">
+            <img src="static/images/product/productOffice_test3.png" alt="">
+            <img src="static/images/product/productOffice_test4.png" alt="">
+            <h3>微冠成技术支持</h3>
+            <p>WEDOTOP TECHNICAL SUPPORT</p>
+            <div class="shop-box clearfix">
+                <div class="fl box-centent boxOffice-centent">
+                    <div class="box-wraper">
+                        <div class="box-img">
+                            <img src="static/images/product/productOffice_one.png" alt="">
+                        </div>
+                        <p class="box-title">稳定的系统</p>
+                    </div>
+                </div>
+                <div class="fl box-centent boxOffice-centent">
+                    <div class="box-wraper">
+                        <div class="box-img">
+                            <img src="static/images/product/productOffice_two.png" alt="">
+                        </div>
+                        <p class="box-title">强大的安全防御</p>
+                    </div>
+                </div>
+                <div class="fl box-centent boxOffice-centent">
+                    <div class="box-wraper">
+                        <div class="box-img">
+                            <img src="static/images/product/productOffice_three.png" alt="">
+                        </div>
+                        <p class="box-title">高弹性拓展能力</p>
+                    </div>
+                </div>
+                <div class="fl box-centent boxOffice-centent">
+                    <div class="box-wraper">
+                        <div class="box-img">
+                            <img src="static/images/product/productOffice_four.png" alt="">
+                        </div>
+                        <p class="box-title">多服务器均衡荷载</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--申请试用-->
+        <div class="test">
+        	<input type="text" placeholder="请输入您的姓名" />
+        	<input type="text" placeholder="请输入您的联系电话" class="phone" />
+        	<a href="javascript:;" class="submit">申请试用</a>
+        </div>
+        
+    </main>
+    
+    <!--底部-->
+    <div id="footer"></div>
+
+</div>
+
+<script src="static/js/wedotop.js"></script>
+<script type="text/javascript">
+	$(function(){
+	  	//申请试用
+	  	$("body").on("click",".test a.submit",function(){
+	  		var isPhone = /^1[34578]\d{9}$/;//手机号码
+	  		if(!isPhone.test($(".test .phone").val())){
+	  			alert("请输入正确的手机号码");
+		        return false;
+		   	}
+	  		
+	  		alert("提交成功");
+
+		});	
+	})
+</script>  
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+.info-container {
+  margin: 30px auto;
+  width: 1200px;
+}
+.info-container .info-left {
+  width: 773px;
+}
+.info-container .info-left .info-article h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 30px;
+}
+.info-container .info-left .info-article .info-first {
+  margin: 11px auto 15px auto;
+  text-align: center;
+  font-size: 14px;
+  color: #999999;
+  width: 330px;
+}
+.info-container .info-left .info-article .info-first .fl {
+  text-align: left;
+}
+.info-container .info-left .info-article .info-first .fr {
+  text-align: right;
+}
+.info-container .info-left .info-article p:not(.info-first) {
+  color: #666666;
+  line-height: 1.9;
+  text-indent: 32px;
+  margin-bottom: 40px;
+  text-align: justify;
+  font-size: 16px;
+}
+.info-container .info-left .info-footer {
+  font-size: 16px;
+}
+.info-container .info-left .info-footer a {
+  color: #109acf;
+}
+.info-container .info-left .info-footer strong {
+  font-weight: normal;
+}
+.info-container .info-left .info-footer span {
+  color: #848282;
+  margin-left: 15px;
+  border-bottom: 1px solid #848282;
+  width: 200px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.info-container .info-right {
+  width: 353px;
+}
+.info-container .info-right .info-list {
+  font-size: 14px;
+}
+.info-container .info-right .info-list a {
+  display: block;
+}
+.info-container .info-right .info-list li {
+  margin: 21px 0;
+  font-size: 14px;
+}
+.info-container .info-right .info-list li a {
+  text-align: inherit;
+}
+.info-container .info-right .info-list li .fl {
+  width: 210px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 18px;
+}
+.info-container .info-right .info-list li .fl .active {
+  background: #109acf;
+}
+.info-container .info-right .info-list li .fl span {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  background: #dadbdb;
+  color: #fff;
+  padding: 3px 8px 3px 8px;
+  margin-right: 10px;
+}
+.info-container .info-right .info-list li .fr {
+  color: #bfbebe;
+  width: 100px;
+  text-align: right;
+}
+.info-container .infos-title {
+  font-size: 16px;
+}
+.info-container .infos-title .rectangle {
+  width: 7px;
+  height: 35px;
+  background: #109acf;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.info-container .infos-title p {
+  border-bottom: 1px solid #c9c9c9;
+  padding: 10px 0 5px 0;
+  margin-left: 17px;
+  text-indent: 5px;
+  color: #666666;
+  font-weight: bold;
+  width: 94%;
+}
+.info-container .infos-title p span {
+  color: #bfbebe;
+}

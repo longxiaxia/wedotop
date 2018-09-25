@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<title>微冠成，移动互联网技术提供商</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="微冠成，微信小程序开发，微商城，微官网，微直播，贷款超市开发，区块链开发，微信定制开发"> 
+<meta name="description" content="微冠成，移动互联网技术提供商。为大中小企业提供微信小程序开发，微官网，微商城，贷款超市，区块链开发等服务。生意要做成，就找微冠成！"> 	
+<meta name="renderer" content="webkit">
+<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+<!--忽略将页面中的数字识别为电话号码-->
+<meta name="format-detection" content="telephone=no" />
+<!--忽略Android平台中对邮箱地址的识别-->
+<meta name="format-detection" content="email=no" />
+<link rel="shortcut icon" type="image/x-icon" href="static/images/wedotop.ico">
+<link rel="icon" type="image/x-icon" href="static/images/wedotop.ico">
+<link href="static/css/common.css" type="text/css" rel="stylesheet" />
+<link href="static/css/header.css" type="text/css" rel="stylesheet" />
+<link href="static/css/footer.css" type="text/css" rel="stylesheet" />
+<link href="static/css/about.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="static/js/jquery.2.1.4.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=t7vyhC7Vw9QeXXSBLRAGGiihNKg1LeyR"></script>
+
+</head>
+<body>
+	<div id="about">
+		<!--头部-->
+		<div id="header"></div>
+		
+		<div class="ad">
+			<img src="static/images/temp/aboutAd.png" />
+		</div>
+		
+		<!--关于微冠成-->
+		<div class="about wrapper tac">
+			<div class="title size34">关于微冠成</div>
+			<div class="subTitle size14">ABOUT WEDOTOP</div>
+			
+			<div class="info clearfix">
+				<div class="fl">
+					<img src="static/images/temp/about01.png" />
+				</div>
+				<div class="fr">
+					<p>深圳市微冠成信息技术有限公司是一家以移动互联网营销为核心的系统解决方案服务提供商。 </p>
+					<p>微冠成核心技术团队拥有十五年以上的互联网研发和管理经验，多年的行业浸淫，使其对互联网的发展方向有着敏锐的洞察力和嗅觉。</p>
+					<p>微冠成近年来着手于移动互联网营销体系的研发，并在微商城、微直播、小程序、企业积分系统等方面取得重大成就。</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--微冠成办公环境-->
+		<div class="office wrapper tac">
+			<div class="title size34">微冠成办公环境</div>
+			<div class="subTitle size14">WEDOTOP OFFICE ENVIRONMENT</div>
+			
+			<div class="info">
+				<p>作为国内优秀的移动互联网技术提供商，我们提供舒适的工作环境，举办丰富的活动，并雇佣富有才华、充满激情的员工。 </p>
+				<p>公司核心技术团队深耕于互联网领域十数年，见证了互联网行业的发展历程，积累了丰富的研发经验。随着移动互联网时代的来临，微冠成再一次洞悉时代发展的方向，历时数年，研发了微商城、微直播、小程序、企业积分系统等未来移动互联网领域必不可少的技术产品。</p>
+				<img src="static/images/temp/about02.png" />
+			</div>
+		</div>
+		
+		<!--联系我们-->
+		<div class="contact wrapper tac">
+			<div class="title size34">联系我们</div>
+			<div class="subTitle size14">CONTACT US</div>
+			
+			<div class="info clearfix">
+				<div id="map" style="width:500px;height:320px;border:1px solid #eee;font-size:12px;line-height:22px;" class="fl"></div>
+				
+				<div class="fr">
+					<p class="tit">深圳总部</p>
+					<p>公司地址：广东省深圳市南山区高新南一道8号创维大厦C座9楼</p>
+					<p>电话：0755-86707893</p>
+					<!--<p>微信公众号：</p>
+					<p>微博：微冠成</p>-->
+					<p>邮编：518000</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--底部-->
+		<div id="footer"></div>
+		
+	</div>			
+							
+<script src="static/js/wedotop.js"></script>
+<script type="text/javascript">
+	
+//创建地图实例  	
+var map = new BMap.Map("map");
+//创建点坐标 
+var point = new BMap.Point(113.95746,22.54494);
+//初始化地图，设置中心点坐标和地图级别   
+map.centerAndZoom(point, 15);
+//启用滚轮放大缩小
+map.enableScrollWheelZoom();
+
+
+
+//添加信息窗口
+var opts = {    
+    width : 160,     // 信息窗口宽度    
+    height: 70,     // 信息窗口高度    
+    title : "深圳市微冠成信息技术有限公司"  // 信息窗口标题   
+}    
+var infoWindow = new BMap.InfoWindow("地址：广东省深圳市南山区高新南一道8号创维大厦9楼", opts);  // 创建信息窗口对象    
+map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
+
+</script>  
+</body>
+
+</html>

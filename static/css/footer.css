@@ -1,0 +1,72 @@
+/*底部*/
+.footer{
+	color:#fff;
+	background:#373d41;
+	padding:8px 0 25px 0;
+}
+.footer a{
+	color:#bfbfbf;
+}
+.footer .footerT{
+	display:flex;
+	/*margin-bottom:45px;*/
+	margin-bottom:25px;
+}
+.footerT .fl{ 
+	width:330px;
+	padding:45px 55px 30px 0;
+	position:relative;
+}
+.footerT .fl:after{ 
+	display:block;
+	content:"";
+	width:2px;
+	height:190px;
+	background:url(../images/icon_xian.png) no-repeat;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.footerT .fl .tel{
+	padding-left:70px;
+	margin-bottom:10px;
+	position:relative;
+}
+.footerT .fl .tel:before{
+	display:block;
+	content:"";
+	width:51px;
+	height:47px;
+	background:url(../images/icon_tel.png) no-repeat;
+	position:absolute;
+	left:0;
+	bottom:5px;
+}
+.footerT .fr{
+	flex:1;
+}
+.footerT .fr .list{
+	float:left;
+	width:180px;
+	padding-left:70px;
+	padding-top:25px;
+}
+.footerT .fr .list .tit{
+	color:#fff;
+	/*margin:7px 0;*/
+	margin-bottom:7px;
+}
+.footerT .fr .list li{
+	margin-bottom:2px;
+}
+.footerT .fr .list img{
+	width:120px;
+	height:120px;
+}
+.footerB p{
+	margin-bottom:2px;
+}
+.footerB a{
+	text-decoration:underline;
+	cursor:default;
+}
