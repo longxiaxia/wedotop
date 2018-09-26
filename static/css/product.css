@@ -134,6 +134,7 @@
 	color:#181818;
 	background:#fff;
 	margin-bottom:10px;
+    font-size: .9rem;
 }
 .test ::-webkit-input-placeholder { /* WebKit browsers */  
     color:#686868;  
