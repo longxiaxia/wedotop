@@ -18,7 +18,46 @@
     <link href="static/css/footer.css" type="text/css" rel="stylesheet" />
     <link href="static/css/product.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="static/js/jquery.2.1.4.min.js"></script>
+    <style>
+        .shop-content {
+            margin-bottom: 180px;
+        }
+        .shop-container .shop-left {
+            width: 282px;
+        }
+        .shop-container .shop-right {
+            width: 680px;
+        }
+        .shop-top {
+            width: 540px;
+            height: 103px;
+            border: 1px solid #000;
+            padding-left: 45px;
+            position: relative;
+            z-index: 0;
+            margin-bottom: 45px;
+            margin-top: 100px;
+        }
+        .shop-right h3 {
+            font-size: 28px;
+            position: relative;
+            bottom: 18px;
+            z-index: 1;
+            width: 145px;
+            background: #f5f5f5;
+        }
+        .shop-right p {
+            font-size: 22px;
+            line-height: 1.2;
+        }
+        .shop-right span {
+            color: #0099cc;
 
+        }
+        .shop-right .shop-height {
+            line-height: 2.5;
+        }
+    </style>
 </head>
 <body>
 <div id="index">
@@ -31,8 +70,60 @@
 
     <!--内容-->
     <main class="shop-container" style="margin-bottom: 100px">
-        <img src="static/images/product/productWatch.png" alt="">
-        
+        <!--<img src="static/images/product/productWatch.png" alt="">-->
+        <div class="shop-content clearfix">
+            <div class="fl shop-left">
+                <img src="static/images/product/video_one.png" alt="">
+            </div>
+            <div class="fr shop-right">
+                <div class="shop-top">
+                    <h3 style="right: 19px;text-align: center;">电商直播</h3>
+                    <p>针对电商，提供服务，利用明星效应</p>
+                    <p>粉丝效应，吸引流量，进行直播卖货</p>
+                </div>
+                <p class="shop-height"><span>直播：</span>主播可以随地进行直播，并且用户可以查找某个主播的往期直 播内容，增加信任消费;</p>
+                <p class="shop-height"><span>视频：</span>主播可以上传已录好的视频供用户观看，增加内容类型；支持回访功能，精彩内容不再错过，同时也大大提高流量利用率。</p>
+            </div>
+        </div>
+        <div class="shop-content clearfix">
+            <div class="fl shop-right" style="padding-top: 200px;width: 450px">
+                <h3>推送店铺</h3>
+                <p style="line-height: 1.5">直播过程中直接向观众推送商家店铺，观 众可收藏并在后期进入该店铺购买商品。</p>
+            </div>
+            <div class="fr shop-left" style="width: 585px;">
+                <img src="static/images/product/video_two.png" alt="">
+            </div>
+        </div>
+        <div class="shop-content clearfix">
+            <div class="fr shop-right" style="padding-top: 200px;width: 450px">
+                <h3>推送购物币</h3>
+                <p style="line-height: 1.5">调动直播气氛的有效工具，同时也能让 更多的消费者回到商城消费。</p>
+            </div>
+            <div class="fl shop-left" style="width: 585px;">
+                <img src="static/images/product/video_three.png" alt="">
+            </div>
+        </div>
+        <div class="shop-content clearfix">
+            <div class="fl shop-right" style="padding-top: 200px;width: 450px">
+                <h3>推送优惠券</h3>
+                <p style="line-height: 1.5">更好的打造商城与直播的闭环消费， 提高优惠券的使用效率。</p>
+            </div>
+            <div class="fr shop-left" style="width: 585px;">
+                <img src="static/images/product/video_four.png" alt="">
+            </div>
+        </div>
+        <div class="shop-content clearfix">
+            <div class="fr shop-right" style="padding-top: 200px;width: 450px">
+                <h3>礼物打赏</h3>
+                <p style="line-height: 1.5">丰富直播互动形式，增加感性消费。</p>
+            </div>
+            <div class="fl shop-left" style="width: 585px;">
+                <img src="static/images/product/video_five.png" alt="">
+            </div>
+        </div>
+
+
+
         <!--申请试用-->
         <div class="test" style="padding-top:50px;">
         	<input type="text" placeholder="请输入您的姓名" />
