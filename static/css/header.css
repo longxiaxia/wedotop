@@ -138,6 +138,7 @@
 	overflow:hidden;
 	text-overflow:ellipsis;
 	white-space:nowrap;
+	font-size: 14px;
 }
 .header .nav .submenu a.active{
 	
