@@ -412,25 +412,6 @@
 #index .news .title{
 	width:540px;
 }
-
-/*<div class="customer wrapper tac">
-	<div class="title size34">微冠成新闻中心</div>
-	<div class="subTitle size14">WEDOTOP NEWS CENTER</div>
-	
-	<ul class="list clearfix">
-		<li class="fl">
-			<div class="tit clearfix">
-				微冠成动态
-				<a href="javascript:;" class="fr">更多</a>
-			</div>
-			
-			<img src="static/images/temp/new01.png" />
-			<div class="info">
-				<p>09/06孙涛勇：“小前台+大中台”构建未来零售蓝图</p>
-				<p>08/30微盟推出影力计划“广告+销售推”组合</p>
-				<p>08/30微盟荣获CLPA最具投资价值的创新企业</p>
-			</div>
-		</li>*/
 #index .news .list{
 	padding-bottom:40px;
 }
@@ -477,5 +458,32 @@
 }
 
 
+/*产品中心*/
+#product{
+	
+}
 
-
+/*微官网*/
+#product .web{
+	
+}
+/*微商城*/
+#product .store{
+	
+}
+/*微直播*/
+#product .live{
+	
+}
+/*微分销*/
+#product .sale{
+	
+}
+/*新零售*/
+#product .retail{
+	
+}
+/*区块链*/
+#product .chain{
+	
+}
