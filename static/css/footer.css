@@ -28,6 +28,7 @@
 	top:0;
 }
 .footerT .fl .tel{
+	/*display:none;*/
 	padding-left:70px;
 	margin-bottom:10px;
 	position:relative;
