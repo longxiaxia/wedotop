@@ -69,14 +69,6 @@ body{padding-top:82px;overflow-x:hidden;}
 #float_nav a:nth-child(4){
 	background:#66c753;
 }
-#float_nav a:hover i{
-	display:none;
-}
-#float_nav a:hover>p{
-	padding:10px 11px;
-	font-size:16px;
-    line-height:24px;
-}
 #float_nav a i{
 	display:inline-block;
     width:26px;
@@ -93,6 +85,27 @@ body{padding-top:82px;overflow-x:hidden;}
 }
 #float_nav a:nth-child(4) i{
     background-image:url(../images/icon_nav04.png);
+}
+@keyframes scaleDraw {  
+    0%{
+        transform: scale(0.8);  
+    }
+    25%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.8);
+    }
+    75%{
+        transform: scale(1);
+    }
+}
+.ballon{
+    -webkit-animation-name: scaleDraw; /*关键帧名称*/
+    -webkit-animation-timing-function: ease; /*动画的速度曲线*/
+    -webkit-animation-iteration-count: infinite;  /*动画播放的次数*/
+    -webkit-animation-duration:1s; /*动画所花费的时间*/
+   -webkit-animation-direction:alternate;
 }
 #float_nav a p{
 	line-height:12px;
