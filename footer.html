@@ -52,4 +52,58 @@
 			<a href="www.miitbeian.gov.cn" target="_blank">@2016-2018 深圳市微冠成信息技术有限公司&nbsp;粤ICP备18116704号&nbsp;& 版权所有</a>
 		</div>	
 	</div>
-</div>		
+</div>
+<div class="fixed">
+	<img src="static/images/footer_page.png" alt="">
+	<form action="">
+		<input type="text" placeholder="请填写你的姓名" required>
+		<input type="number" placeholder="请填写你的手机号码" required>
+		<input type="submit" value="立即抽奖">
+	</form>
+	<img class="close" style="width: 30px;cursor:pointer;position: absolute;right: 10px;top: 10px;" src="static/images/adver_close.png" alt="">
+</div>
+<style>
+	.fixed {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+	}
+	.fixed img {
+		width: 100%;
+	}
+	.fixed input::-webkit-outer-spin-button,
+	.fixed input::-webkit-inner-spin-button{
+		-webkit-appearance: none !important;
+		margin: 0;
+	}
+	.fixed input[type="number"]{-moz-appearance:textfield;}
+	.fixed input {
+		font-size: 20px;
+		position: absolute;
+		top: 60%;
+		width: 16%;
+		height: 32%;
+		background: #9fc2ff;
+		border-radius: 10px;
+		box-sizing: border-box;
+		padding-left: 25px;
+	}
+	.fixed input[type=text] {
+		left: 27%;
+	}
+	.fixed input[type=number] {
+		left: 45%;
+	}
+	.fixed input[type=submit] {
+		left: 63%;
+		color: #ff0000;
+		font-weight: bold;
+		background: #fff;
+		padding-left: 0px;
+	}
+</style>
+<script>
+	document.querySelector('.close').addEventListener('click',function () {
+        document.querySelector('.fixed').style.display='none';
+    })
+</script>
